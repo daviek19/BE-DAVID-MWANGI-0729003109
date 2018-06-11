@@ -8,13 +8,13 @@ How to run the application:
   This can also be configured under /main/resources/application.properties when running from an IDE
 
 To run the application from an IDE
-import the project and build with dependencies
+import the project and build with maven dependencies
 Locate 
 1) company.wsdl.FetchDepartments; and add @XmlRootElement(name = "fetchDepartments")
 2) company.wsdl.FetchStaff and add @XmlRootElement(name = "fetchStaff")
 
 Then run the application
 
-To run from a jar file
-use java -jar interview-v1.0.2.jar
+A jar file is also available
+run using java -jar interview-v1.0.2.jar
 
