@@ -7,7 +7,7 @@ How to run the application:
 * 2.Create a user root with password root to the database cellulant.
   This can also be configured under /main/resources/application.properties when running from an IDE
 
-* To run the application from an IDE
+To run the application from an IDE
 import the project and build with dependencies
 Locate 
 1) company.wsdl.FetchDepartments; and add @XmlRootElement(name = "fetchDepartments")
